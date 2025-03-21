@@ -12,7 +12,7 @@ public class Juego {
 	}
 
 	public void jugarTurno(int fila, int columna) {
-		grilla.clickearCelda(fila, columna);
+		grilla.tocarCelda(fila, columna);
 	}
 
 	public void mostrarEstado() {

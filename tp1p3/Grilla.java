@@ -15,7 +15,7 @@ public class Grilla {
         }
     }
 
-    public void clickearCelda(int fila, int columna) {
+    public void tocarCelda(int fila, int columna) {
     	// provisorio, para que no salte error cuando ingresas numero fuera del rango
         if (fila < 0 || fila >= tamaño || columna < 0 || columna >= tamaño) {
             return;
